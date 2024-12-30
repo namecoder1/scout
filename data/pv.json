@@ -1,0 +1,232 @@
+[
+	{
+		"id": 1,
+		"name": "Traccia 1",
+    "image": "/images/pv/1-traccia.png",
+		"direzioni": [
+			{
+				"name": "Io",
+				"description": "Sono al centro del mio sentiero. Mi conosco, affronto sfide, ascolto le mie sensazioni e le condivido",
+				"color": "blue",
+				"sfide": [
+					{
+						"description": "Conosco il mio corpo",
+						"text": "Conosco il mio corpo: Scelgo un’attività fisica che non pratico già e mi impegno per tre mesi a svolgerla in autonomia (es. yoga, corsa, ..) e sulla base di questa propongo un’attività di esercizi per un’uscita di Reparto."
+					},
+					{
+						"description": "Sono consapevole delle azioni e dei comportamenti che metto in atto",
+						"text": "Per tre mesi mi impegno a tenere traccia dei momenti significativi delle mie giornate che associo ai valori di Legge e Promessa, condividendoli in Ptg/Eqp."
+					},
+					{
+						"description": "Riconosco le emozioni",
+						"text": "Supporto il CP/CE o una Terza Traccia nell’organizzazione di due momenti di verifica di Ptg/Eqp. Mi impegno a esprimere le mie opinioni nei momenti di verifica di Reparto."
+
+					},
+					{
+						"description": "Esprimo liberamente la mia creatività",
+						"text": "Trovo, o costruisco, un oggetto insolito ma utile al mio equipaggiamento per la vita di Reparto, hike o campi, e dopo averlo testato più volte lo presento e ne spiego il funzionamento in un momento di Reparto."
+					}
+				]
+			},
+			{
+				"name": "Le mie relazioni",
+				"description": "Affronto il mio percorso con gli altri. Coltivo amicizie, ascolto e contribuisco al bene delle comunità",
+				"color": "yellow",
+				"sfide": [
+					{
+						"description": "Riconosco il valore delle regole",
+						"text": "Scelgo 3 articoli della Legge Scout e, durante una riunione di Reparto, porto per ognuno un esempio della vita di tutti i giorni in cui viene rispettato e uno in cui no."
+					},
+					{
+						"description": "Comunico il mio punto di vista",
+						"text": "Mi occupo insieme alla mia Ptg/Eqp di organizzare un momento di animazione per il Reparto, collaborando attivamente con tutti, e lo uso come spunto per migliorare la proposta di una seconda attività."
+					},
+					{
+						"description": "Partecipo attivamente alla vita del gruppo",
+						"text": "Sperimento almeno 3 Posti d'Azione e 2 Incarichi diversi, seguendo l'esempio di chi li ha tenuti prima di me."
+					},
+					{
+						"description": "Riconosco l'unicita e la peculiarità degli altri",
+						"text": "Per tre mesi mi occupo di raccontare le personalità dei membri della mia Ptg/Eqp attraverso racconti/immagini/video (da allegare al librone di Ptg, da pubblicare sui social ufficiali, ecc)."
+					}
+				]
+			},			
+			{
+				"name": "Il mio impatto",
+				"description": "Il sentiero cambia me e io cambio il sentiero. Scelgo la direzione e agendo secondo i miei valori, lascio un’impronta per me e gli altri",
+				"color": "red",
+				"sfide": [
+					{
+						"description": "Identifico dei progetti personali che voglio portare avanti",
+						"text": "Propongo un gioco nuovo al mio Reparto o Ptg/Eqp, spiegando il regolamento ed aiutando i capi nel gestirlo"
+					},
+					{
+						"description": "Scopro quali sono le mie competenze",
+						"text": "Conquisto almeno 3 specialità di mio interesse."
+					},
+					{
+						"description": "Osservo criticamente il contesto in cui opero",
+						"text": "In Ptg/Eqp propongo, disegno e realizzo (in collaborazione con gli altri, se ho bisogno) almeno due migliorie utili alla vita di Ptg/Eqp/ al campo/ all'angolo in sede."
+					},
+					{
+						"description": "Mi approccio con curiosità alle novità",
+						"text": "Dopo aver vissuto un’esperienza scout con o senza il mio Rep/Ptg/Eqp, documento e racconto come l’ho vissuta."
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 2,
+		"name": "Traccia 2",
+    "image": "/images/pv/2-traccia.png",
+		"direzioni": [
+			{
+				"name": "Io",
+				"description": "Sono al centro del mio sentiero. Mi conosco, affronto sfide, ascolto le mie sensazioni e le condivido",
+				"color": "blue",
+				"sfide": [
+					{
+						"description": "Esploro i limiti del mio corpo confrontandomi con me stesso e con gli altri",
+						"text": "Collaboro (con un capo/senior) nell'ideare un menù bilanciato e salutare per due uscite/campi di Reparto, ampliando poi il ricettario della mia Ptg/Eqp."
+					},
+					{
+						"description": "Identifico le motivazioni dietro le mie azioni",
+						"text": "Contribuisco all’organizzazione di un’attività del percorso Promessa o CdL ideata dallo Staff, portando un contributo basato sulle esperienze che mi toccano da vicino o ho letto/visto."
+					},
+					{
+						"description": "Esploro con curiosità le esperienze che vivo",
+						"text": "Partecipo ad un evento al di fuori del Reparto (es. tecnicamp, gemellaggio, torneo, esperienze extra-scout) e al mio ritorno porto al Reparto il racconto dell'esperienza (scritto, animato, video ecc) evidenziando \"Lo consiglierei ad altri Esplo? perchè?\""
+					},
+					{
+						"description": "Sono aperto a mettere in discussione le mie idee ed opinioni",
+						"text": "Propongo per una riunione di Ptg/Eqp un’esperienza che riguardi un tema per me importante (es. evento, cineforum, ecc), al termine del quale aiuto a condurre un confronto su come io e gli altri lo abbiamo vissuto."
+					}
+				]
+			},
+			{
+				"name": "Le mie relazioni",
+				"description": "Affronto il mio percorso con gli altri. Coltivo amicizie, ascolto e contribuisco al bene delle comunità",
+				"color": "yellow",
+				"sfide": [
+					{
+						"description": "Mi chiedo il perché delle regole",
+						"text": "Aiuto nel definire e far rispettare un patto scritto di regole interno alla Ptg/Eqp o Reparto per almeno un evento (es. hike, uscita, impresa, campo..)."
+					},
+					{
+						"description": "Utilizzo con consapevolezza le varie modalità di comunicazione",
+						"text": "Partecipo attivamente alla progettazione e realizzazione dell'animazione di un fuoco di bivacco, prima di Ptg/Eqp e poi di Reparto/Gruppo, curandone tema e messaggi."
+					},
+					{
+						"description": "Vivo serenamente il confronto con l’altro",
+						"text": "Propongo un'uscita di Ptg/Eqp di conoscenza fuori dal Reparto (gemellaggio altri scout, servizio altra associazione, con esterni ecc) e collaboro attivamente alla sua riuscita."
+					},
+					{
+						"description": "Conosco e rispetto i bisogni e le necessità di chi mi sta intorno",
+						"text": "Mi impegno a conquistare due specialità di Impegno Civile facendo squadra ogni volta con un altro/a Esplo con cui ho legato meno del Reparto."
+					}				
+				]
+			},			
+			{
+				"name": "Il mio impatto",
+				"description": "Il sentiero cambia me e io cambio il sentiero. Scelgo la direzione e agendo secondo i miei valori, lascio un’impronta per me e gli altri",
+				"color": "red",
+				"sfide": [
+					{
+						"description": "Contribuisco attivamente ai progetti di gruppo",
+						"text": "Porto una mia idea motivata in consiglio di Ptg/Eqp per un progetto o attività da fare insieme e contribuisco alla sua realizzazione (es. Impresa, Riunioni, migliorie ecc)."
+					},
+					{
+						"description": "Sono parte attiva nel gruppo",
+						"text": "Organizzo un momento per gli altri, da solo o con l’aiuto della Ptg/Eqp, in cui porto e condivido le mie competenze in un ambito che mi piace (sport, hobby, tecniche..)."
+					},
+					{
+						"description": "Partecipo alle decisioni strategiche del gruppo",
+						"text": "Contribuisco a identificare aspetti da poter migliorare nella vita di Ptg/Eqp durante almeno due CdP e mi propongo nei ruoli che li risolvano, verificando poi com’è andata."
+
+					},
+					{
+						"description": "Confronto più punti di vista per strutturare la mia opinione",
+						"text": "Svolgo una ricerca utile alla mia Ptg/Eqp oppure Reparto organizzando e conducendo diverse interviste (o usando fonti, siti, altre associazioni..), mettendo insieme il risultato per presentarlo in una riunione."
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 3,
+		"name": "Traccia 3",
+    "image": "/images/pv/3-traccia.png",
+		"direzioni": [
+			{
+				"name": "Io",
+				"description": "Sono al centro del mio sentiero. Mi conosco, affronto sfide, ascolto le mie sensazioni e le condivido",
+				"color": "blue",
+				"sfide": [
+					{
+						"description": "Affronto le sfide che incontro con serenità",
+						"text": "Partecipo ad un’occasione al di fuori del Reparto (CCP, tecnicamp, gemellaggio, evento nazionale..), riportando qualcosa della mia esperienza con un’attività in Ptg/Eqp/Reparto."
+					},
+					{
+						"description": "Sono coerente e d'esempio in tutti gli ambienti in cui vivo.",
+						"text": "Faccio da tutor ad un nuovo/a Esplo della mia Ptg/Eqp per 6 mesi nella conquista della specialità e/o nell'affrontare le sue sfide per il raggiungimento della Traccia."
+					},
+					{
+						"description": "Riconosco l'importanza del mio benessere",
+						"text": "Preparo un momento a tema benessere e dipendenze da poter inserire in un’attività di CdR/Alta Pattuglia/gruppo delle III tracce, confrontandomi con lo staff e portando il mio punto di vista ed esperienza."
+					},					
+					{
+						"description": "Interagisco con gli altri per risolvere le sfide comuni",
+						"text": "Organizzo almeno tre momenti di verifica con la mia Ptg/Eqp riportando o facendo riportare sul verbale le soluzioni alternative ai problemi che abbiamo individuato, riferendo poi tutto al CR."
+					}
+				]
+			},
+			{
+				"name": "Le mie relazioni",
+				"description": "Affronto il mio percorso con gli altri. Coltivo amicizie, ascolto e contribuisco al bene delle comunità",
+				"color": "yellow",
+				"sfide": [
+					{
+						"description": "Sono d’esempio e promuovo occasioni di conivolgimento nel gruppo",
+						"text": "Organizzo e conduco 2 momenti o attività di confronto e discussione di cui uno di Ptg/Eqp e dopo uno con tutto il Reparto."
+					},
+					{
+						"description": "Trasmetto e riconosco le mie emozioni",
+						"text": "Con l'aiuto dello staff, organizzo e poi gestisco un'attività sulla sessualità ed affettività da proporre durante un'uscita in Reparto."
+					},
+					{
+						"description": "Creo un ambiente sicuro, accogliente e pacifico per tutti",
+						"text": "Coordino gli altri CP/VCP per organizzare e gestire, con l’aiuto dello Staff, un’attività di accoglienza o conoscenza (es. passaggi, ingresso di esterni, percorso promessa, gemellaggio..)."
+					},
+					{
+						"description": "Valorizzo le idee e le caratteristiche dei miei compagni",
+						"text": "Per tre mesi mi occupo di raccontare le esperienze vissute in Ptg/Eqp/Reparto (quaderno di ptg, libro d'oro, articoli, social..), ricordando le gesta e caratteristiche dei miei compagni."
+					}
+				]
+			},			
+			{
+				"name": "Il mio impatto",
+				"description": "Il sentiero cambia me e io cambio il sentiero. Scelgo la direzione e agendo secondo i miei valori, lascio un’impronta per me e gli altri",
+				"color": "red",
+				"sfide": [
+					{
+						"description": "Coordino i progetti di gruppo, valorizzando i miei collaboratori",
+						"text": "Propongo e guido la mia Ptg/Eqp nella conquista di una specialità di Ptg/Eqp."
+					},
+					{
+						"description": "Condivido competenze ed esperienze con il resto del gruppo",
+						"text": "Organizzo un momento di trapasso nozioni in Ptg/Eqp/Reparto su un aspetto specifico o innovativo per una tecnica (anche non scout) in cui sono competente."
+					},
+					{
+						"description": "Porto avanti le mie idee democraticamente e nel rispetto dell'opinione altrui",
+						"text": "Propongo, progetto e conduco un confronto o dibattito in cui coinvolgo Ptg/Eqp/III tracce/CdR/Alta ptg, su un tema a me caro."
+					},
+					{
+						"description": "Immagino, pianifico e realizzo i miei obiettivi e quelli del gruppo",
+						"text": "Pianifico e gestisco la partecipazione di Ptg/Eqp/CdR/Alta ptg ad un evento legato ad un tema che a me interessa, proponendoci per svolgere per l’occasione un servizio."
+					}
+				]
+			}
+		]
+	}
+]
