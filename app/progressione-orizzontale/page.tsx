@@ -1,13 +1,13 @@
 'use client'
 import { useState } from 'react';
 import { ProgressionCard } from '@/components/blocks/card';
-import data from '@/data/po.json';
-import { XIcon } from 'lucide-react';
 import { Separator } from '@/components/ui/separator';
 import { Button } from '@/components/ui/button';
+import { XIcon } from 'lucide-react';
 import Link from 'next/link';
+import data from '@/data/po.json';
 
-// Tipo per i dati grezzi
+// Raw type for the Horizontal Progression data
 export type RawHorizontalType = {
   id: number;
   title: string;
@@ -18,7 +18,7 @@ export type RawHorizontalType = {
   border: string;
 };
 
-// Tipo finale per il componente
+// Final type for the Horizontal Progression data
 export type HorizontalPostType = {
   id: string;
   title: string;
@@ -29,7 +29,7 @@ export type HorizontalPostType = {
   border: "green" | "red" | "yellow" | "blue";
 };
 
-// Dati per i filtri del bordo
+// Border buttons data
 const borderButtons = [
   { key: "green", label: "Corporeità", border: 'border-green-700 hover:border-green-800', hover: 'hover:bg-[#3fa535] hover:border-green-800 hover:text-white', active: 'bg-[#3fa535] text-white' },
   { key: "red", label: "Impegno Civile", border: 'border-red-700 hover:border-red-800', hover: 'hover:bg-[#cd1719]/90 hover:border-red-500 hover:text-white', active: 'bg-[#cd1719] text-white' },
@@ -37,7 +37,7 @@ const borderButtons = [
   { key: "blue", label: "Carattere", border: 'border-blue-800 hover:border-blue-950', hover: 'hover:bg-[#283583] hover:border-blue-950 hover:text-white', active: 'bg-[#283583] text-white' },
 ];
 
-// Dati per i filtri dello sfondo
+// Background buttons data
 const backgroundButtons = [
   { key: "green", label: "Specialità Scout", color: "bg-[#007632]", border: 'border-green-800', hover: 'hover:bg-[#007632]/80 hover:border-green-900 hover:text-white', active: 'bg-[#007632] text-white' },
   { key: "yellow", label: "Specialità Personali", color: "bg-[#f6e500]", border: 'border-yellow-600', hover: 'hover:bg-[#f6e500]/70 hover:border-yellow-700', active: 'bg-[#f6e500]' },
@@ -67,6 +67,7 @@ const HorizontalProgressionPage = () => {
     };
   });
 
+  // Filtered posts
   const filteredPosts = posts.filter(post => {
     const matchesBorder = borderFilter ? post.border === borderFilter : true;
     const matchesBackground = backgroundFilter ? post.color === backgroundFilter : true;
@@ -124,8 +125,7 @@ const HorizontalProgressionPage = () => {
           setBackgroundFilter(null);
           setSearchTerm('');
         }}
-        className='px-3 py-1.5 border border-red-500 hover:bg-red-200 hover:border-red-500 rounded-xl text-black w-full md:w-fit'
-      >
+        className='px-3 py-1.5 border border-red-500 hover:bg-red-200 hover:border-red-500 rounded-xl text-black w-full md:w-fit'>
         Resetta filtri
       </button>
       <div className='my-10 grid grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>

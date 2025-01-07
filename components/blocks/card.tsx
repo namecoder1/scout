@@ -68,18 +68,18 @@ function InfoBox({ props } : { props: HorizontalPostType }) {
               }`}>{category}</span>
             </DialogDescription>
             <ul className="pt-2">
-              <li className="flex items-start gap-2 mb-2">
-                <span className="text-gray-500">1.</span>
-                <span className="font-semibold">Prova da definire con lo Staff di Reparto</span>
-              </li>
               {tasks.map((task, index) => {
                 return (
                   <li key={index} className="flex items-start gap-2 mb-2 leading-6">
-                    <span className="text-gray-500">{index + 2}.</span>
+                    <span className="text-gray-500">{index + 1}.</span>
                     <span>{task}</span>
                   </li>
                 )
               })}
+              <li className="flex items-start gap-2 mb-2">
+                <span className="text-gray-500">4.</span>
+                <span className="font-semibold">Prova da definire con lo Staff di Reparto</span>
+              </li>
             </ul>
           </DialogHeader>
         </DialogContent>
@@ -117,18 +117,18 @@ function InfoBox({ props } : { props: HorizontalPostType }) {
         </DrawerHeader>
         <div className="px-4 pb-2" id="drawer-description">
           <ul>
-            <li className="flex items-start gap-2 mb-2">
-              <span className="text-gray-500">1.</span>
-              <span className="font-semibold">Prova da definire con lo Staff di Reparto</span>
-            </li>
             {tasks.map((task, index) => {
               return (
                 <li key={index} className="flex items-start gap-2 mb-2 leading-6">
-                  <span className="text-gray-500">{index + 2}.</span>
+                  <span className="text-gray-500">{index + 1}.</span>
                   <span>{task}</span>
                 </li>
               )
             })}
+            <li className="flex items-start gap-2 mb-2">
+              <span className="text-gray-500">4.</span>
+              <span className="font-semibold">Prova da definire con lo Staff di Reparto</span>
+            </li>
           </ul>
         </div>
       </DrawerContent>

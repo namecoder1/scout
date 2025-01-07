@@ -1,20 +1,3 @@
-export type RawVerticalType = {
-  id: number;
-  name: string;
-  image: string;
-  direzioni: {
-    name: string;
-    description: string;
-    color: string; // Cambiato da "blue" | "yellow" | "red" a string
-    sfide: VerticalSfidaType[];
-  }[];
-};
-
-type VerticalSfidaType = {
-  description: string;
-  text: string;
-}
-
 import {
   Accordion,
   AccordionContent,
@@ -22,14 +5,35 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion"
 import { Button } from "@/components/ui/button";
-
-
-import data from '@/data/pv.json'
+import { Metadata } from "next";
 import Link from "next/link";
+import data from '@/data/pv.json'
+
+export const metadata: Metadata = {
+  title: "Progressione Verticale | Branca Esploratori ed Esploratrici"
+}
+
+// Raw type for the Vertical Progression data
+export type RawVerticalType = {
+  id: number;
+  name: string;
+  image: string;
+  direzioni: {
+    name: string;
+    description: string;
+    color: string;
+    sfide: VerticalSfidaType[];
+  }[];
+};
+
+// Final type for the Vertical Progression data
+type VerticalSfidaType = {
+  description: string;
+  text: string;
+}
 
 const VerticalProgressionPage = () => {
   const posts: RawVerticalType[] = data;
-  console.log(posts[0].image)
   
   return (
     <section className="p-4">

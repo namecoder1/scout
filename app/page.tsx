@@ -1,5 +1,10 @@
 import { Button } from "@/components/ui/button";
+import { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Progressione Personale | Branca Esploratori ed Esploratrici"
+}
 
 export default function Home() {
   return (
