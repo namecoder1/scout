@@ -1,7 +1,7 @@
 [
 	{
 		"id": 1,
-		"name": "Traccia 1",
+		"name": "Passo 1",
     "image": "/images/pv/1-traccia.png",
 		"direzioni": [
 			{
@@ -19,7 +19,7 @@
 					},
 					{
 						"description": "Riconosco le emozioni",
-						"text": "Supporto il CP/CE o una Terza Traccia nell’organizzazione di due momenti di verifica di Ptg/Eqp. Mi impegno a esprimere le mie opinioni nei momenti di verifica di Reparto."
+						"text": "Supporto il CP/CE o un Terzo Passo nell’organizzazione di due momenti di verifica di Ptg/Eqp. Mi impegno a esprimere le mie opinioni nei momenti di verifica di Reparto."
 
 					},
 					{
@@ -29,7 +29,7 @@
 				]
 			},
 			{
-				"name": "Le mie relazioni",
+				"name": "Gli altri",
 				"description": "Affronto il mio percorso con gli altri. Coltivo amicizie, ascolto e contribuisco al bene delle comunità",
 				"color": "yellow",
 				"sfide": [
@@ -52,7 +52,7 @@
 				]
 			},			
 			{
-				"name": "Il mio impatto",
+				"name": "La mia traccia",
 				"description": "Il sentiero cambia me e io cambio il sentiero. Scelgo la direzione e agendo secondo i miei valori, lascio un’impronta per me e gli altri",
 				"color": "red",
 				"sfide": [
@@ -78,7 +78,7 @@
 	},
 	{
 		"id": 2,
-		"name": "Traccia 2",
+		"name": "Passo 2",
     "image": "/images/pv/2-traccia.png",
 		"direzioni": [
 			{
@@ -105,7 +105,7 @@
 				]
 			},
 			{
-				"name": "Le mie relazioni",
+				"name": "Gli altri",
 				"description": "Affronto il mio percorso con gli altri. Coltivo amicizie, ascolto e contribuisco al bene delle comunità",
 				"color": "yellow",
 				"sfide": [
@@ -128,7 +128,7 @@
 				]
 			},			
 			{
-				"name": "Il mio impatto",
+				"name": "La mia traccia",
 				"description": "Il sentiero cambia me e io cambio il sentiero. Scelgo la direzione e agendo secondo i miei valori, lascio un’impronta per me e gli altri",
 				"color": "red",
 				"sfide": [
@@ -155,7 +155,7 @@
 	},
 	{
 		"id": 3,
-		"name": "Traccia 3",
+		"name": "Passo 3",
     "image": "/images/pv/3-traccia.png",
 		"direzioni": [
 			{
@@ -169,11 +169,11 @@
 					},
 					{
 						"description": "Sono coerente e d'esempio in tutti gli ambienti in cui vivo.",
-						"text": "Faccio da tutor ad un nuovo/a Esplo della mia Ptg/Eqp per 6 mesi nella conquista della specialità e/o nell'affrontare le sue sfide per il raggiungimento della Traccia."
+						"text": "Faccio da tutor ad un nuovo/a Esplo della mia Ptg/Eqp per 6 mesi nella conquista della specialità e/o nell'affrontare le sue sfide per il raggiungimento del Passo."
 					},
 					{
 						"description": "Riconosco l'importanza del mio benessere",
-						"text": "Preparo un momento a tema benessere e dipendenze da poter inserire in un’attività di CdR/Alta Pattuglia/gruppo delle III tracce, confrontandomi con lo staff e portando il mio punto di vista ed esperienza."
+						"text": "Preparo un momento a tema benessere e dipendenze da poter inserire in un’attività di CdR/Alta Pattuglia/gruppo del III passo, confrontandomi con lo staff e portando il mio punto di vista ed esperienza."
 					},					
 					{
 						"description": "Interagisco con gli altri per risolvere le sfide comuni",
@@ -182,7 +182,7 @@
 				]
 			},
 			{
-				"name": "Le mie relazioni",
+				"name": "Gli altri",
 				"description": "Affronto il mio percorso con gli altri. Coltivo amicizie, ascolto e contribuisco al bene delle comunità",
 				"color": "yellow",
 				"sfide": [
@@ -205,7 +205,7 @@
 				]
 			},			
 			{
-				"name": "Il mio impatto",
+				"name": "La mia traccia",
 				"description": "Il sentiero cambia me e io cambio il sentiero. Scelgo la direzione e agendo secondo i miei valori, lascio un’impronta per me e gli altri",
 				"color": "red",
 				"sfide": [
@@ -219,7 +219,7 @@
 					},
 					{
 						"description": "Porto avanti le mie idee democraticamente e nel rispetto dell'opinione altrui",
-						"text": "Propongo, progetto e conduco un confronto o dibattito in cui coinvolgo Ptg/Eqp/III tracce/CdR/Alta ptg, su un tema a me caro."
+						"text": "Propongo, progetto e conduco un confronto o dibattito in cui coinvolgo Ptg/Eqp/III passi/CdR/Alta ptg, su un tema a me caro."
 					},
 					{
 						"description": "Immagino, pianifico e realizzo i miei obiettivi e quelli del gruppo",

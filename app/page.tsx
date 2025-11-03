@@ -58,7 +58,7 @@ export default function Home() {
         <p className="leading-7 mt-3">
           La Progressione Verticale è un <span className="font-bold">percorso fatto su misura dagli esploratori e dalle esploratrici stessi</span>: loro lo progettano, 
           lo realizzano e poi lo verificano. Per questo motivo, viene rappresentato simbolicamente come un <span className="font-bold">Sentiero</span>, 
-          suddiviso in tappe intermedie chiamate <span className="font-bold">Tracce</span>, che si raggiungono superando delle <span className="font-bold">Sfide</span>.
+          suddiviso in tappe intermedie chiamate <span className="font-bold">Passi</span>, che si raggiungono superando delle <span className="font-bold">Sfide</span>.
         </p>
       </div>
       <div className="flex justify-center flex-col sm:flex-row items-center gap-3 my-10">
